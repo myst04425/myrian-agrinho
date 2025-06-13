@@ -129,11 +129,6 @@ footer {
     background-color: #0056b3;
 }
 
-/* Efeito de rotação do botão */
-.rotacao-botao {
-    transform: rotate(180deg);
-}
-
 /* Menu de opções de acessibilidade */
 .accessibility-menu {
     display: none;
@@ -164,4 +159,8 @@ footer {
 }
 
 .accessibility-menu button:hover {
-    background-color: #218838
+    background-color: #218838;
+}
+
+/* Contraste Alto
+
