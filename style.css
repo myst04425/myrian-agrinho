@@ -155,12 +155,6 @@ footer {
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    transition: background-color 0.3s ease;
-}
+    transition: background-color 0.3s ease
 
-.accessibility-menu button:hover {
-    background-color: #218838;
-}
-
-/* Contraste Alto
 
