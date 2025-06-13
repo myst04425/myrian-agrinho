@@ -9,7 +9,7 @@
 <body>
     <header>
         <h1>Conexão do campo à cidade</h1>
-        <img src="image.png" alt="Foto que faz representação do ambiente rural(campo) ao lado de um ambiente urbano.">
+        <img src="img/image.png" alt="Foto que faz representação do ambiente rural(campo) ao lado de um ambiente urbano.">
         <p>A relação entre o campo e a cidade é essencial para o abastecimento de alimentos e o desenvolvimento. No entanto, essa conexão traz desafios, como impactos ambientais e sociais, que exigem soluções sustentáveis para um equilíbrio entre ambos.</p>
         <nav>
             <ul>
@@ -20,7 +20,15 @@
         </nav>
     </header>
 
-<!-- código omitido -->
+    <!-- Botão de acessibilidade -->
+    <div id="botao-acessibilidade" class="accessibility-button">
+        <button aria-expanded="false">Acessibilidade</button>
+        <div id="opcoes-acessibilidade" class="accessibility-menu">
+            <button id="aumentar-fonte">Aumentar Fonte</button>
+            <button id="diminuir-fonte">Diminuir Fonte</button>
+            <button id="alterna-contraste">Alternar Contraste</button>
+        </div>
+    </div>
 
     <main>
         <section id="problemas" class="conteudo">
@@ -29,27 +37,22 @@
                 <h3>Exigência de Produção Intensiva</h3>
                 <p>A crescente demanda urbana por alimentos leva à intensificação da agricultura no campo.</p>
             </article>
-
             <article>
                 <h3>Modernização da Agricultura</h3>
                 <p>A adoção de novas tecnologias agrícolas para atender à demanda urbana.</p>
             </article>
-
             <article>
                 <h3>Mudanças Climáticas e Agricultura</h3>
                 <p>As mudanças climáticas, agravadas pela urbanização, afetam a produção agrícola no campo.</p>
             </article>
-
             <article>
                 <h3>Fornecimento de Alimentos</h3>
                 <p>As cidades dependem fortemente da agricultura rural para o abastecimento de alimentos essenciais (frutas, vegetais, grãos, etc.).</p>
             </article>
-
             <article>
                 <h3>Desafios de Logística e Transporte</h3>
                 <p>A distribuição de alimentos do campo para a cidade enfrenta desafios logísticos, como congestionamentos, infraestruturas inadequadas e custos elevados de transporte.</p>
             </article>
-
             <a href="https://www.youtube.com/watch?v=z6xAkNPV3QI" class="cta-button" target="_blank">Como impacta o mundo? <i class="fa-solid fa-arrow-up-right-from-square" style="color: var(--text-color);"></i></a>
         </section>
 
@@ -68,14 +71,15 @@
         <section id="conclusao" class="conteudo">
             <h2>Conclusão</h2>
             <p>A conexão entre o campo e a cidade é vital, mas precisa ser equilibrada. Enquanto as cidades dependem da produção agrícola, o crescimento urbano e a agricultura intensiva geram impactos ambientais e sociais. O desafio é encontrar um caminho sustentável para ambos.</p>
-            <iframe width="560" height="315" src="https://www.youtube.com/watch?v=A_Vf9v7e05I" title="YouTube video.">
+            <iframe width="560" height="315" src="https://www.youtube.com/watch?v=A_Vf9v7e05I" title="YouTube video."></iframe>
         </section>
-
     </main>
 
     <footer>
         <a href="https://www.linkedin.com/in/usuario-agricultura" class="cta-footer">Faça parte dessa causa!</a>
         <p>2025 | @siteficticio</p>
     </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
